@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundGray">#E8F2F0</color>
+    <color name="black">#FF000000</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="greenPrimary">#26AF77</color>
+    <color name="textGray">#555555</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Deal Hunter</string>
+    <string name="gcm_defaultSenderId" translatable="false">700719688647</string>
+    <string name="get_started">Get Started</string>
+    <string name="google_api_key" translatable="false">AIzaSyDvnjnbER4i4zLHdTqkMi7SYuAAiOrNtDk</string>
+    <string name="google_app_id" translatable="false">1:700719688647:android:523cb8eecff579cdf607e2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDvnjnbER4i4zLHdTqkMi7SYuAAiOrNtDk</string>
+    <string name="google_storage_bucket" translatable="false">dealhunter-6f8fd.firebasestorage.app</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="logout">Logout</string>
+    <string name="price_ascending">Prix croissant ▼</string>
+    <string name="project_id" translatable="false">dealhunter-6f8fd</string>
+    <string name="search_hint">Rechercher un jeu</string>
+    <string name="welcome_message">Welcome to Deal Hunter!</string>
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/roboto_slab</item>
+        <item name="android:windowBackground">@color/backgroundGray</item>
+        <item name="android:statusBarColor">@color/greenPrimary</item>
+    </style>
+    <style name="RobotoSlabTextView" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/roboto_slab</item>
+    </style>
+    <style name="Theme.DealHunter" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

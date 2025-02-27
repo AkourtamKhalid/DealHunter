@@ -1,0 +1,11 @@
+<!-- filepath: /c:/Users/20015750/Desktop/deal hunter/simple-android-app/app/src/main/res/values/colors.xml -->
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="greenPrimary">#26AF77</color>
+    <color name="textGray">#555555</color>
+    <color name="backgroundGray">#E8F2F0</color>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Deal Hunter</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="welcome_message">Welcome to Deal Hunter!</string>
+    <string name="get_started">Get Started</string>
+    <string name="search_hint">Rechercher un jeu</string>
+    <string name="price_ascending">Prix croissant ▼</string>
+    <string name="logout">Logout</string>
+</resources>

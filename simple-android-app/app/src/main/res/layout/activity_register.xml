@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/registerRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    tools:context=".RegisterActivity">
+
+    <!-- Green Card covering the entire screen -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardGreenBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/greenPrimary"
+        app:cardCornerRadius="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- Logo (inside a circle background) -->
+            <ImageView
+                android:id="@+id/ivLogo"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_bg"
+                android:padding="8dp"
+                android:src="@drawable/logo"
+                android:scaleType="centerCrop"
+                android:clipToOutline="true"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <!-- App Name -->
+            <TextView
+                android:id="@+id/tvAppName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="DealHunter"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/ivLogo"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <!-- Main Card (white background) -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardRegisterArea"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="40dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:backgroundTint="@color/backgroundGray"
+                app:cardCornerRadius="30dp"
+                app:layout_constraintTop_toBottomOf="@id/tvAppName"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="24dp">
+
+                    <!-- Title: "Inscription" -->
+                    <TextView
+                        android:id="@+id/tvInscription"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="Inscription"
+                        android:textColor="#333333"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent" />
+
+                    <!-- First Name Label -->
+                    <TextView
+                        android:id="@+id/tvFirstNameLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="Prénom"
+                        android:textColor="@color/textGray"
+                        android:textSize="14sp"
+                        app:layout_constraintTop_toBottomOf="@id/tvInscription"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <!-- First Name EditText -->
+                    <EditText
+                        android:id="@+id/etFirstName"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/edit_text_background"
+                        android:inputType="textPersonName"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        app:layout_constraintTop_toBottomOf="@id/tvFirstNameLabel"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent" />
+
+                    <!-- Last Name Label -->
+                    <TextView
+                        android:id="@+id/tvLastNameLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="Nom"
+                        android:textColor="@color/textGray"
+                        android:textSize="14sp"
+                        app:layout_constraintTop_toBottomOf="@id/etFirstName"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <!-- Last Name EditText -->
+                    <EditText
+                        android:id="@+id/etLastName"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/edit_text_background"
+                        android:inputType="textPersonName"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        app:layout_constraintTop_toBottomOf="@id/tvLastNameLabel"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent" />
+
+                    <!-- Email Label -->
+                    <TextView
+                        android:id="@+id/tvEmailLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="Email"
+                        android:textColor="@color/textGray"
+                        android:textSize="14sp"
+                        app:layout_constraintTop_toBottomOf="@id/etLastName"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <!-- Email EditText -->
+                    <EditText
+                        android:id="@+id/etEmail"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/edit_text_background"
+                        android:inputType="textEmailAddress"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        app:layout_constraintTop_toBottomOf="@id/tvEmailLabel"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent" />
+
+                    <!-- Password Label -->
+                    <TextView
+                        android:id="@+id/tvPasswordLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="Mot de passe"
+                        android:textColor="@color/textGray"
+                        android:textSize="14sp"
+                        app:layout_constraintTop_toBottomOf="@id/etEmail"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <!-- Password EditText -->
+                    <EditText
+                        android:id="@+id/etPassword"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/edit_text_background"
+                        android:inputType="textPassword"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        app:layout_constraintTop_toBottomOf="@id/tvPasswordLabel"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent" />
+
+                    <!-- "Avez-vous déjà un compte?" + "Se connecter" -->
+                    <TextView
+                        android:id="@+id/tvLoginPrompt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="Avez-vous déjà un compte? "
+                        android:textColor="#555555"
+                        android:textSize="14sp"
+                        app:layout_constraintTop_toBottomOf="@id/etPassword"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <TextView
+                        android:id="@+id/tvLogin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Se connecter"
+                        android:textColor="@color/greenPrimary"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        app:layout_constraintTop_toTopOf="@id/tvLoginPrompt"
+                        app:layout_constraintStart_toEndOf="@id/tvLoginPrompt" />
+
+                    <!-- Register Button -->
+                    <Button
+                        android:id="@+id/btnRegister"
+                        android:layout_width="0dp"
+                        android:layout_height="56dp"
+                        android:layout_marginTop="24dp"
+                        android:background="@drawable/button_background"
+                        android:text="S'INSCRIRE"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:layout_constraintTop_toBottomOf="@id/tvLoginPrompt"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
