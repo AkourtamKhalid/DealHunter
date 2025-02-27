@@ -1,0 +1,20 @@
+<!-- filepath: /c:/Users/20015750/Desktop/deal hunter/simple-android-app/app/src/main/res/values/styles.xml -->
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/roboto_slab</item>
+        <item name="android:windowBackground">@color/backgroundGray</item>
+        <item name="android:statusBarColor">@color/greenPrimary</item>
+    </style>
+
+    <!-- Style for TextView with Roboto Slab -->
+    <style name="RobotoSlabTextView" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/roboto_slab</item>
+    </style>
+</resources>

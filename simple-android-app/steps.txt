@@ -1,0 +1,5 @@
+gradle wrapper --gradle-version 8.7
+./gradelew clean
+./gradlew installDebug
+adb shell am start -n com.example.dealhunter/.MainActivity
+adb logcat *:E
