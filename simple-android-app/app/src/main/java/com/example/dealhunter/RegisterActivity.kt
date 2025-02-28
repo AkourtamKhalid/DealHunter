@@ -9,8 +9,8 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
+import com.google.firebase.auth.userProfileChangeRequest
 import com.google.firebase.ktx.Firebase
-import com.google.firebase.auth.ktx.userProfileChangeRequest
 
 class RegisterActivity : AppCompatActivity() {
     private lateinit var auth: FirebaseAuth
@@ -39,13 +39,14 @@ class RegisterActivity : AppCompatActivity() {
                     .addOnCompleteListener(this) { task ->
                         if (task.isSuccessful) {
                             val user = auth.currentUser
-                            val profileUpdates = userProfileChangeRequest {
+                            // Updated to use the new API
+                            val profileUpdates = com.google.firebase.auth.userProfileChangeRequest {
                                 displayName = "$firstName $lastName"
                             }
                             user?.updateProfile(profileUpdates)?.addOnCompleteListener { profileTask ->
                                 if (profileTask.isSuccessful) {
                                     Toast.makeText(this, "Inscription réussie", Toast.LENGTH_SHORT).show()
-                                    val intent = Intent(this, HomeActivity::class.java)
+                                    val intent = Intent(this, GameSearchActivity::class.java)
                                     startActivity(intent)
                                     finish()
                                 } else {

@@ -1,103 +1,115 @@
 [
     {
-        "merged": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-debug-43:\\mipmap_ic_launcher.png.flat",
-        "source": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-main-45:\\mipmap\\ic_launcher.png"
+        "merged": "com.example.dealhunter.app-debug-43:/layout_deal_item.xml.flat",
+        "source": "com.example.dealhunter.app-main-45:/layout/deal_item.xml"
     },
     {
-        "merged": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-debug-43:\\drawable_logo.png.flat",
-        "source": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-main-45:\\drawable\\logo.png"
+        "merged": "com.example.dealhunter.app-debug-43:/drawable_ic_optimize.xml.flat",
+        "source": "com.example.dealhunter.app-main-45:/drawable/ic_optimize.xml"
     },
     {
-        "merged": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-debug-43:\\drawable_ic_optimize.xml.flat",
-        "source": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-main-45:\\drawable\\ic_optimize.xml"
+        "merged": "com.example.dealhunter.app-debug-43:/drawable_search_background.xml.flat",
+        "source": "com.example.dealhunter.app-main-45:/drawable/search_background.xml"
     },
     {
-        "merged": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-debug-43:\\drawable_edit_text_background.xml.flat",
-        "source": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-main-45:\\drawable\\edit_text_background.xml"
+        "merged": "com.example.dealhunter.app-debug-43:/layout_activity_main.xml.flat",
+        "source": "com.example.dealhunter.app-main-45:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-debug-43:\\mipmap_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-main-45:\\mipmap\\ic_launcher_round.png"
+        "merged": "com.example.dealhunter.app-debug-43:/drawable_background_gradient.xml.flat",
+        "source": "com.example.dealhunter.app-main-45:/drawable/background_gradient.xml"
     },
     {
-        "merged": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-debug-43:\\layout_activity_home.xml.flat",
-        "source": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-main-45:\\layout\\activity_home.xml"
+        "merged": "com.example.dealhunter.app-debug-43:/layout_game_card.xml.flat",
+        "source": "com.example.dealhunter.app-main-45:/layout/game_card.xml"
     },
     {
-        "merged": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-debug-43:\\drawable_ic_deal.xml.flat",
-        "source": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-main-45:\\drawable\\ic_deal.xml"
+        "merged": "com.example.dealhunter.app-debug-43:/drawable_placeholder_game.xml.flat",
+        "source": "com.example.dealhunter.app-main-45:/drawable/placeholder_game.xml"
     },
     {
-        "merged": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-debug-43:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-main-45:\\layout\\activity_main.xml"
+        "merged": "com.example.dealhunter.app-debug-43:/drawable_ic_deal.xml.flat",
+        "source": "com.example.dealhunter.app-main-45:/drawable/ic_deal.xml"
     },
     {
-        "merged": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-debug-43:\\drawable_placeholder_game.xml.flat",
-        "source": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-main-45:\\drawable\\placeholder_game.xml"
+        "merged": "com.example.dealhunter.app-debug-43:/layout_activity_register.xml.flat",
+        "source": "com.example.dealhunter.app-main-45:/layout/activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-debug-43:\\drawable_ic_simplify.xml.flat",
-        "source": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-main-45:\\drawable\\ic_simplify.xml"
+        "merged": "com.example.dealhunter.app-debug-43:/mipmap_ic_launcher_round.png.flat",
+        "source": "com.example.dealhunter.app-main-45:/mipmap/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-debug-43:\\layout_game_card.xml.flat",
-        "source": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-main-45:\\layout\\game_card.xml"
+        "merged": "com.example.dealhunter.app-debug-43:/drawable_button_background.xml.flat",
+        "source": "com.example.dealhunter.app-main-45:/drawable/button_background.xml"
     },
     {
-        "merged": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-debug-43:\\drawable_background_gradient.xml.flat",
-        "source": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-main-45:\\drawable\\background_gradient.xml"
+        "merged": "com.example.dealhunter.app-debug-43:/drawable_logo.png.flat",
+        "source": "com.example.dealhunter.app-main-45:/drawable/logo.png"
     },
     {
-        "merged": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-debug-43:\\drawable_button_rounded.xml.flat",
-        "source": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-main-45:\\drawable\\button_rounded.xml"
+        "merged": "com.example.dealhunter.app-debug-43:/drawable_edit_text_background.xml.flat",
+        "source": "com.example.dealhunter.app-main-45:/drawable/edit_text_background.xml"
     },
     {
-        "merged": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-debug-43:\\drawable_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-main-45:\\drawable\\ic_launcher_foreground.png"
+        "merged": "com.example.dealhunter.app-debug-43:/drawable_round_bg.xml.flat",
+        "source": "com.example.dealhunter.app-main-45:/drawable/round_bg.xml"
     },
     {
-        "merged": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-debug-43:\\drawable_circle_background.xml.flat",
-        "source": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-main-45:\\drawable\\circle_background.xml"
+        "merged": "com.example.dealhunter.app-debug-43:/font_roboto_slab.ttf.flat",
+        "source": "com.example.dealhunter.app-main-45:/font/roboto_slab.ttf"
     },
     {
-        "merged": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-debug-43:\\layout_activity_register.xml.flat",
-        "source": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-main-45:\\layout\\activity_register.xml"
+        "merged": "com.example.dealhunter.app-debug-43:/drawable_ic_launcher_foreground.png.flat",
+        "source": "com.example.dealhunter.app-main-45:/drawable/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-debug-43:\\xml_network_security_config.xml.flat",
-        "source": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-main-45:\\xml\\network_security_config.xml"
+        "merged": "com.example.dealhunter.app-debug-43:/drawable_circle_background.xml.flat",
+        "source": "com.example.dealhunter.app-main-45:/drawable/circle_background.xml"
     },
     {
-        "merged": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-debug-43:\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-main-45:\\layout\\activity_login.xml"
+        "merged": "com.example.dealhunter.app-debug-43:/layout_item_game.xml.flat",
+        "source": "com.example.dealhunter.app-main-45:/layout/item_game.xml"
     },
     {
-        "merged": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-debug-43:\\drawable_button_background.xml.flat",
-        "source": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-main-45:\\drawable\\button_background.xml"
+        "merged": "com.example.dealhunter.app-debug-43:/layout_activity_landing.xml.flat",
+        "source": "com.example.dealhunter.app-main-45:/layout/activity_landing.xml"
     },
     {
-        "merged": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-debug-43:\\layout_activity_landing.xml.flat",
-        "source": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-main-45:\\layout\\activity_landing.xml"
+        "merged": "com.example.dealhunter.app-debug-43:/layout_activity_game_search.xml.flat",
+        "source": "com.example.dealhunter.app-main-45:/layout/activity_game_search.xml"
     },
     {
-        "merged": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-debug-43:\\layout_item_game.xml.flat",
-        "source": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-main-45:\\layout\\item_game.xml"
+        "merged": "com.example.dealhunter.app-debug-43:/xml_network_security_config.xml.flat",
+        "source": "com.example.dealhunter.app-main-45:/xml/network_security_config.xml"
     },
     {
-        "merged": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-debug-43:\\drawable_login_background.xml.flat",
-        "source": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-main-45:\\drawable\\login_background.xml"
+        "merged": "com.example.dealhunter.app-debug-43:/drawable_ic_simplify.xml.flat",
+        "source": "com.example.dealhunter.app-main-45:/drawable/ic_simplify.xml"
     },
     {
-        "merged": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-debug-43:\\drawable_round_bg.xml.flat",
-        "source": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-main-45:\\drawable\\round_bg.xml"
+        "merged": "com.example.dealhunter.app-debug-43:/layout_activity_landing_page.xml.flat",
+        "source": "com.example.dealhunter.app-main-45:/layout/activity_landing_page.xml"
     },
     {
-        "merged": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-debug-43:\\drawable_search_background.xml.flat",
-        "source": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-main-45:\\drawable\\search_background.xml"
+        "merged": "com.example.dealhunter.app-debug-43:/drawable_button_rounded.xml.flat",
+        "source": "com.example.dealhunter.app-main-45:/drawable/button_rounded.xml"
     },
     {
-        "merged": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-debug-43:\\font_roboto_slab.ttf.flat",
-        "source": "C:\\Users\\20015750\\.gradle\\daemon\\8.7\\com.example.dealhunter.app-main-45:\\font\\roboto_slab.ttf"
+        "merged": "com.example.dealhunter.app-debug-43:/layout_activity_login.xml.flat",
+        "source": "com.example.dealhunter.app-main-45:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.dealhunter.app-debug-43:/mipmap_ic_launcher.png.flat",
+        "source": "com.example.dealhunter.app-main-45:/mipmap/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.dealhunter.app-debug-43:/drawable_login_background.xml.flat",
+        "source": "com.example.dealhunter.app-main-45:/drawable/login_background.xml"
+    },
+    {
+        "merged": "com.example.dealhunter.app-debug-43:/layout_activity_deals.xml.flat",
+        "source": "com.example.dealhunter.app-main-45:/layout/activity_deals.xml"
     },
     {
         "merged": "com.example.dealhunter.app-debug-43:/layout_activity_home.xml.flat",

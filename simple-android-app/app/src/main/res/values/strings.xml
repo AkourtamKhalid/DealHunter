@@ -6,4 +6,19 @@
     <string name="search_hint">Rechercher un jeu</string>
     <string name="price_ascending">Prix croissant ▼</string>
     <string name="logout">Logout</string>
+    <string-array name="filter_options">
+        <item>No Filter</item>
+        <item>Price: Low to High</item>
+        <item>Price: High to Low</item>
+        <item>Sale Price: Low to High</item>
+        <item>Sale Price: High to Low</item>
+        <item>Savings: High to Low</item>
+    </string-array>
+    <string-array name="deal_filter_options">
+        <item>No Filter</item>
+        <item>Sale Price: Low to High</item>
+        <item>Sale Price: High to Low</item>
+        <item>Savings: High to Low</item>
+        <item>Deal Rating: High to Low</item>
+    </string-array>
 </resources>

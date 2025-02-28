@@ -1,0 +1,45 @@
+com.example.dealhunter.app-jetified-activity-1.8.0-0 C:\Users\20015750\.gradle\caches\transforms-4\0390a02165c9515c9d210923e503af43\transformed\jetified-activity-1.8.0\res
+com.example.dealhunter.app-jetified-core-ktx-1.12.0-1 C:\Users\20015750\.gradle\caches\transforms-4\0e505e57be82da549cc2327eef78c711\transformed\jetified-core-ktx-1.12.0\res
+com.example.dealhunter.app-jetified-credentials-play-services-auth-1.2.0-rc01-2 C:\Users\20015750\.gradle\caches\transforms-4\11f763996967e6e293ad6ffff97c7696\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\res
+com.example.dealhunter.app-jetified-lifecycle-process-2.6.1-3 C:\Users\20015750\.gradle\caches\transforms-4\16560976bf071fc1b0e8c26b32baae12\transformed\jetified-lifecycle-process-2.6.1\res
+com.example.dealhunter.app-jetified-annotation-experimental-1.3.0-4 C:\Users\20015750\.gradle\caches\transforms-4\1a447ab6b95b0cd574bb9c378ec0a486\transformed\jetified-annotation-experimental-1.3.0\res
+com.example.dealhunter.app-jetified-glide-4.16.0-5 C:\Users\20015750\.gradle\caches\transforms-4\1abfa0315ee193fe0c62eaa7ab76b468\transformed\jetified-glide-4.16.0\res
+com.example.dealhunter.app-drawerlayout-1.1.1-6 C:\Users\20015750\.gradle\caches\transforms-4\1c38358cff1d55f95b3b60e261ff6a26\transformed\drawerlayout-1.1.1\res
+com.example.dealhunter.app-core-1.12.0-7 C:\Users\20015750\.gradle\caches\transforms-4\1d0a6edd9c0b1efb296c642f2493ad0c\transformed\core-1.12.0\res
+com.example.dealhunter.app-jetified-ads-adservices-java-1.0.0-beta05-8 C:\Users\20015750\.gradle\caches\transforms-4\1d6d93504b8772d280b63ca373850c28\transformed\jetified-ads-adservices-java-1.0.0-beta05\res
+com.example.dealhunter.app-lifecycle-runtime-2.6.1-9 C:\Users\20015750\.gradle\caches\transforms-4\2a353f9480431170c107a855915ce661\transformed\lifecycle-runtime-2.6.1\res
+com.example.dealhunter.app-transition-1.2.0-10 C:\Users\20015750\.gradle\caches\transforms-4\3255576806a02c1749450b7d99e8d6bb\transformed\transition-1.2.0\res
+com.example.dealhunter.app-material-1.10.0-11 C:\Users\20015750\.gradle\caches\transforms-4\3649bdc3e14ed14e4765ba4ce441fc3e\transformed\material-1.10.0\res
+com.example.dealhunter.app-recyclerview-1.2.1-12 C:\Users\20015750\.gradle\caches\transforms-4\3684e0284f8130ff26f2f21e5169f707\transformed\recyclerview-1.2.1\res
+com.example.dealhunter.app-appcompat-1.6.1-13 C:\Users\20015750\.gradle\caches\transforms-4\3ab6c0cdf7fd5f247673e44eefed4549\transformed\appcompat-1.6.1\res
+com.example.dealhunter.app-jetified-startup-runtime-1.1.1-14 C:\Users\20015750\.gradle\caches\transforms-4\4bd9631cc4af062a367cb6250725f3c6\transformed\jetified-startup-runtime-1.1.1\res
+com.example.dealhunter.app-jetified-play-services-base-18.5.0-15 C:\Users\20015750\.gradle\caches\transforms-4\52248b2398fe07af969adeb3a8273a38\transformed\jetified-play-services-base-18.5.0\res
+com.example.dealhunter.app-constraintlayout-2.0.1-16 C:\Users\20015750\.gradle\caches\transforms-4\526ade18b788d5a8037f832fc395e834\transformed\constraintlayout-2.0.1\res
+com.example.dealhunter.app-jetified-core-common-2.0.3-17 C:\Users\20015750\.gradle\caches\transforms-4\6319d1a6e8f281299103112f7203d9d8\transformed\jetified-core-common-2.0.3\res
+com.example.dealhunter.app-cardview-1.0.0-18 C:\Users\20015750\.gradle\caches\transforms-4\6dd93720167f4501d04dc14c608d5547\transformed\cardview-1.0.0\res
+com.example.dealhunter.app-browser-1.4.0-19 C:\Users\20015750\.gradle\caches\transforms-4\71469aa5973704ba0081b5a137b7377e\transformed\browser-1.4.0\res
+com.example.dealhunter.app-jetified-savedstate-1.2.1-20 C:\Users\20015750\.gradle\caches\transforms-4\74583c706e0a999ecaf9476f2a389cf6\transformed\jetified-savedstate-1.2.1\res
+com.example.dealhunter.app-fragment-1.3.6-21 C:\Users\20015750\.gradle\caches\transforms-4\823dadf843df2d008bbafc0c050bda94\transformed\fragment-1.3.6\res
+com.example.dealhunter.app-jetified-appcompat-resources-1.6.1-22 C:\Users\20015750\.gradle\caches\transforms-4\879ac73ab6051d08bf7c62743e437cbb\transformed\jetified-appcompat-resources-1.6.1\res
+com.example.dealhunter.app-jetified-lifecycle-viewmodel-savedstate-2.6.1-23 C:\Users\20015750\.gradle\caches\transforms-4\8b855e2510ea5b4c26928e5320b5d5d7\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.1\res
+com.example.dealhunter.app-core-runtime-2.2.0-24 C:\Users\20015750\.gradle\caches\transforms-4\9937d0b60abdbec00b7d176ec914a808\transformed\core-runtime-2.2.0\res
+com.example.dealhunter.app-jetified-ads-adservices-1.0.0-beta05-25 C:\Users\20015750\.gradle\caches\transforms-4\9c166161580e5dbdc9cbdc053c12918c\transformed\jetified-ads-adservices-1.0.0-beta05\res
+com.example.dealhunter.app-lifecycle-viewmodel-2.6.1-26 C:\Users\20015750\.gradle\caches\transforms-4\9d489112ee45908cb12e49138cbb1d14\transformed\lifecycle-viewmodel-2.6.1\res
+com.example.dealhunter.app-lifecycle-livedata-2.6.1-27 C:\Users\20015750\.gradle\caches\transforms-4\aa2dee1c94ebabc48a3eb56cfba9d1c1\transformed\lifecycle-livedata-2.6.1\res
+com.example.dealhunter.app-jetified-firebase-common-21.0.0-28 C:\Users\20015750\.gradle\caches\transforms-4\b3ed5c4ec120d99fd580a221c0ce7f41\transformed\jetified-firebase-common-21.0.0\res
+com.example.dealhunter.app-jetified-profileinstaller-1.3.0-29 C:\Users\20015750\.gradle\caches\transforms-4\b4c3dda227070dd46351bd7b8ffa1afc\transformed\jetified-profileinstaller-1.3.0\res
+com.example.dealhunter.app-jetified-emoji2-1.2.0-30 C:\Users\20015750\.gradle\caches\transforms-4\bbb1f35ac9de8bac7594af75f043001b\transformed\jetified-emoji2-1.2.0\res
+com.example.dealhunter.app-jetified-emoji2-views-helper-1.2.0-31 C:\Users\20015750\.gradle\caches\transforms-4\c278291f44e20f85bce509598d4fd35a\transformed\jetified-emoji2-views-helper-1.2.0\res
+com.example.dealhunter.app-lifecycle-livedata-core-2.6.1-32 C:\Users\20015750\.gradle\caches\transforms-4\c7951011a7b3431ab05b3f53bae2847b\transformed\lifecycle-livedata-core-2.6.1\res
+com.example.dealhunter.app-jetified-play-services-basement-18.5.0-33 C:\Users\20015750\.gradle\caches\transforms-4\c81ed4e671701430c1fcd4d12be6b5e3\transformed\jetified-play-services-basement-18.5.0\res
+com.example.dealhunter.app-jetified-play-services-auth-20.7.0-34 C:\Users\20015750\.gradle\caches\transforms-4\d2e6a68da302df5c4d4a57bec1aac57b\transformed\jetified-play-services-auth-20.7.0\res
+com.example.dealhunter.app-coordinatorlayout-1.1.0-35 C:\Users\20015750\.gradle\caches\transforms-4\e3284c9e73c943a20a5f5730454d5a3f\transformed\coordinatorlayout-1.1.0\res
+com.example.dealhunter.app-jetified-viewpager2-1.0.0-36 C:\Users\20015750\.gradle\caches\transforms-4\f1cb9143c99a877a2a0ad1854f0127b8\transformed\jetified-viewpager2-1.0.0\res
+com.example.dealhunter.app-jetified-credentials-1.2.0-rc01-37 C:\Users\20015750\.gradle\caches\transforms-4\ff05afa6c0204082ea41ec934dee971b\transformed\jetified-credentials-1.2.0-rc01\res
+com.example.dealhunter.app-google-services-38 C:\Users\20015750\Desktop\deal hunter\simple-android-app\app\build\generated\res\google-services\release
+com.example.dealhunter.app-resValues-39 C:\Users\20015750\Desktop\deal hunter\simple-android-app\app\build\generated\res\resValues\release
+com.example.dealhunter.app-packageReleaseResources-40 C:\Users\20015750\Desktop\deal hunter\simple-android-app\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.example.dealhunter.app-packageReleaseResources-41 C:\Users\20015750\Desktop\deal hunter\simple-android-app\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.example.dealhunter.app-release-42 C:\Users\20015750\Desktop\deal hunter\simple-android-app\app\build\intermediates\merged_res\release\mergeReleaseResources
+com.example.dealhunter.app-main-43 C:\Users\20015750\Desktop\deal hunter\simple-android-app\app\src\main\res
+com.example.dealhunter.app-release-44 C:\Users\20015750\Desktop\deal hunter\simple-android-app\app\src\release\res

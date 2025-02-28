@@ -5,10 +5,7 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 import android.view.inputmethod.EditorInfo
-import android.widget.Button
-import android.widget.EditText
-import android.widget.TextView
-import android.widget.Toast
+import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -28,16 +25,17 @@ import java.security.cert.X509Certificate
 import javax.net.ssl.SSLContext
 import javax.net.ssl.TrustManager
 import javax.net.ssl.X509TrustManager
+import com.example.dealhunter.utils.NetworkUtils
 
 class HomeActivity : AppCompatActivity() {
     private lateinit var auth: FirebaseAuth
     private lateinit var searchInput: EditText
     private lateinit var gameList: RecyclerView
     private lateinit var gamesFoundText: TextView
-    private lateinit var filterButton: TextView
     private lateinit var gameAdapter: GameAdapter
     private lateinit var searchQueryDisplay: TextView
     private lateinit var searchButton: Button
+    private lateinit var filterSpinner: Spinner
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -55,12 +53,13 @@ class HomeActivity : AppCompatActivity() {
         initializeViews()
         setupRecyclerView()
         setupSearch()
+        setupFilterSpinner()
         loadGames("")
 
         val logoutButton: Button = findViewById(R.id.btnLogout)
         logoutButton.setOnClickListener {
             auth.signOut()
-            val intent = Intent(this, LoginActivity::class.java)
+            val intent = Intent(this, GameSearchActivity::class.java)
             startActivity(intent)
             finish()
         }
@@ -83,9 +82,9 @@ class HomeActivity : AppCompatActivity() {
         searchInput = findViewById(R.id.searchInput)
         gameList = findViewById(R.id.gameList)
         gamesFoundText = findViewById(R.id.gamesFound)
-        filterButton = findViewById(R.id.filterButton)
         searchQueryDisplay = findViewById(R.id.searchQueryDisplay)
         searchButton = findViewById(R.id.searchButton)
+        filterSpinner = findViewById(R.id.filterSpinner)
     }
 
     private fun setupRecyclerView() {
@@ -111,6 +110,27 @@ class HomeActivity : AppCompatActivity() {
         }
     }
 
+    private fun setupFilterSpinner() {
+        ArrayAdapter.createFromResource(
+            this,
+            R.array.filter_options,
+            android.R.layout.simple_spinner_item
+        ).also { adapter ->
+            adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+            filterSpinner.adapter = adapter
+        }
+
+        filterSpinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+            override fun onItemSelected(parent: AdapterView<*>, view: View?, pos: Int, id: Long) {
+                gameAdapter.filterDeals(pos)
+            }
+
+            override fun onNothingSelected(parent: AdapterView<*>) {
+                // Do nothing
+            }
+        }
+    }
+
     private fun performSearch() {
         val searchQuery = searchInput.text.toString()
         if (searchQuery.isNotEmpty()) {
@@ -126,29 +146,9 @@ class HomeActivity : AppCompatActivity() {
     }
 
     private fun loadGames(query: String) {
-        val trustAllCerts = arrayOf<TrustManager>(object : X509TrustManager {
-            override fun checkClientTrusted(chain: Array<out X509Certificate>?, authType: String?) {}
-            override fun checkServerTrusted(chain: Array<out X509Certificate>?, authType: String?) {}
-            override fun getAcceptedIssuers(): Array<X509Certificate> = arrayOf()
-        })
-
-        val sslContext = SSLContext.getInstance("SSL")
-        sslContext.init(null, trustAllCerts, java.security.SecureRandom())
-
-        val okHttpClient = OkHttpClient.Builder()
-            .sslSocketFactory(sslContext.socketFactory, trustAllCerts[0] as X509TrustManager)
-            .hostnameVerifier { _, _ -> true }
-            .build()
-
-        val retrofit = Retrofit.Builder()
-            .baseUrl("https://www.cheapshark.com/api/1.0/")
-            .client(okHttpClient)
-            .addConverterFactory(GsonConverterFactory.create())
-            .build()
-
-        val api = retrofit.create(CheapSharkApi::class.java)
+        val api = NetworkUtils.createRetrofit()
+            .create(CheapSharkApi::class.java)
         
-        // Fix: Change the parameter to just "batman" instead of "title=batman"
         api.getGames(query).enqueue(object : Callback<List<Game>> {
             override fun onResponse(call: Call<List<Game>>, response: Response<List<Game>>) {
                 if (response.isSuccessful) {

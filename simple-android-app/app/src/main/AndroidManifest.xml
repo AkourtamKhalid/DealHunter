@@ -29,6 +29,10 @@
         <activity android:name=".MainActivity" android:exported="true" />
         <activity android:name=".RegisterActivity" android:exported="true" />
         <activity android:name=".HomeActivity" android:exported="true"/>
+        <activity
+            android:name=".GameSearchActivity"
+            android:exported="false"
+            android:label="Game Search"/>
 
         <meta-data
             android:name="com.google.android.gms.version"
