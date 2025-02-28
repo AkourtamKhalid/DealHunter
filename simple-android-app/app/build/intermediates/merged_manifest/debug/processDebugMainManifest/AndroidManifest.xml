@@ -57,6 +57,10 @@
         <activity
             android:name="com.example.dealhunter.HomeActivity"
             android:exported="true" />
+        <activity
+            android:name="com.example.dealhunter.GameSearchActivity"
+            android:exported="false"
+            android:label="Game Search" />
 
         <meta-data
             android:name="com.google.android.gms.version"

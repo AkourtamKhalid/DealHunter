@@ -20,6 +20,7 @@ import com.bumptech.glide.load.model.GlideUrl
 import com.bumptech.glide.load.model.LazyHeaders
 
 class GameAdapter(private var games: List<Game>) : RecyclerView.Adapter<GameAdapter.GameViewHolder>() {
+    private var originalGames: List<Game> = games.toList()
 
     class GameViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val gameImage: ImageView = view.findViewById(R.id.gameImage)
@@ -89,7 +90,20 @@ class GameAdapter(private var games: List<Game>) : RecyclerView.Adapter<GameAdap
     override fun getItemCount() = games.size
 
     fun updateGames(newGames: List<Game>) {
+        originalGames = newGames.toList()
         games = newGames
+        notifyDataSetChanged()
+    }
+
+    fun filterDeals(filterOption: Int) {
+        games = when (filterOption) {
+            0 -> originalGames // No filter
+            1 -> originalGames.sortedBy { it.cheapest.toDoubleOrNull() ?: 0.0 }
+            2 -> originalGames.sortedByDescending { it.cheapest.toDoubleOrNull() ?: 0.0 }
+            3 -> originalGames.sortedBy { it.cheapest.toDoubleOrNull() ?: 0.0 }
+            4 -> originalGames.sortedByDescending { it.cheapest.toDoubleOrNull() ?: 0.0 }
+            else -> originalGames
+        }
         notifyDataSetChanged()
     }
 }

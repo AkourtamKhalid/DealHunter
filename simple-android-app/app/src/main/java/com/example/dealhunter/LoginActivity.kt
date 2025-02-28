@@ -37,9 +37,7 @@ class LoginActivity : AppCompatActivity() {
                         if (task.isSuccessful) {
                             Toast.makeText(this, "Connexion réussie", Toast.LENGTH_SHORT).show()
                             Handler(Looper.getMainLooper()).postDelayed({
-                                val intent = Intent(this, HomeActivity::class.java)
-                                startActivity(intent)
-                                finish()
+                                navigateToMainScreen()
                             }, 100) // Délai de 0.1 seconde
                         } else {
                             Toast.makeText(this, "Connexion échouée: ${task.exception?.message}", Toast.LENGTH_SHORT).show()
@@ -49,5 +47,11 @@ class LoginActivity : AppCompatActivity() {
                 Toast.makeText(this, "Veuillez remplir tous les champs", Toast.LENGTH_SHORT).show()
             }
         }
+    }
+
+    private fun navigateToMainScreen() {
+        val intent = Intent(this, GameSearchActivity::class.java)
+        startActivity(intent)
+        finish()
     }
 }
